@@ -31,25 +31,35 @@ describe(@"Fizz Buzz Tests", ^{
 #pragma mark - Test 2
     it(@"Should allow it's startNumber property to be set", ^{
         expect(defaultFizzBuzz).to.respondTo(@selector(setStartNumber:));
+        defaultFizzBuzz.startNumber = @5;
+        expect(defaultFizzBuzz.startNumber).to.equal(@5);
     });
     
 #pragma mark - Test 3
     it(@"Should allow it's endNumber property to be set", ^{
+        expect(defaultFizzBuzz).to.respondTo(@selector(setEndNumber:));
+        defaultFizzBuzz.endNumber = @5;
+        expect(defaultFizzBuzz.endNumber).to.equal(@5);
 
     });
     
 #pragma mark - Test 4
     it(@"Should set startNumber and endNumber to @0 when initialized using default initializer", ^{
+        expect(defaultFizzBuzz.startNumber).to.equal(@0);
+        expect(defaultFizzBuzz.endNumber).to.equal(@0);
 
     });
     
 #pragma mark - Test 5
     it(@"Should return a FizzBuzz Object when initialized with a designated initializer", ^{
+        expect(designatedFizzBuzz).to.beKindOf([FizzBuzz class]);
+        expect(designatedFizzBuzz).toNot.beNil();
 
-    });
+});
     
 #pragma mark - Test 6
     it(@"Should replace appropriate values with Fizz, Buzz, and FizzBuzz", ^{
+        expect([FizzBuzz getValuesBetweenNumber:@0 andNumber:@15]).to.equal( @[@"0",@"1",@"2",@"Fizz",@"4",@"Buzz",@"Fizz",@"7",@"8",@"Fizz",@"Buzz", @"11", @"Fizz", @"13", @"14", @"FizzBuzz"]);
 
     });
     

@@ -49,7 +49,7 @@
 		44CFDF23189C536E00238AA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		44CFDF25189C536E00238AA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		44CFDF2B189C536E00238AA4 /* Objc-TDDFizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objc-TDDFizzBuzzTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44CFDF2C189C536E00238AA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		44CFDF2C189C536E00238AA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		44CFDF34189C536E00238AA4 /* Objc-TDDFizzBuzzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Objc-TDDFizzBuzzTests-Info.plist"; sourceTree = "<group>"; };
 		44CFDF36189C536E00238AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		492B01018311B56BE36F1DF7 /* Pods-Objc-TDDFizzBuzzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objc-TDDFizzBuzzTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Objc-TDDFizzBuzzTests/Pods-Objc-TDDFizzBuzzTests.release.xcconfig"; sourceTree = "<group>"; };

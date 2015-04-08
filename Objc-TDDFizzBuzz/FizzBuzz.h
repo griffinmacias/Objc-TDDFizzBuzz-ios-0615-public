@@ -15,5 +15,7 @@
 
 - (instancetype)init;
 - (instancetype)initWithStartNumber:(NSNumber *)startNumber endNumber:(NSNumber *)endNumber;
++ (NSArray *)getValuesBetweenNumber:(NSNumber *)startNumber andNumber:(NSNumber *)endNumber;
+
 
 @end
